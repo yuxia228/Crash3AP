@@ -76,7 +76,7 @@ class stageType():
 # 0x6957D: OK (0x03 == dummy)
 # 0x6957E: OK (0x00 == dummy)
 # 0x6957F: OK (0x80 == dummy)
-# 0x69580: OK (0x00 == dummy)
+# 0x69580: OK (0xe2 == dummy)
 # 0x69581: OK (0xFF == dummy)
 # 0x69582: OK (0xFF == dummy)
 # 0x69583: OK (0xFF == dummy)
@@ -107,6 +107,12 @@ powerstone_dict = {
     "Stage23: Power Stone": 0, # 0x69580 0x04
     "Stage24: Power Stone": 0, # 0x6957E 0x80
     "Stage25: Power Stone": 0, # 0x69580 0x10
+    # Not implemented
+    #"Stage26: Power Stone":0, # 0x69580 0x02
+    #"Stage28: Power Stone":0, # 0x69580 0x20
+    #"Stage30: Power Stone":0, # 0x6957F 0x80
+    #"Stage31: Power Stone":0, # 0x69580 0x80
+    #"Stage32: Power Stone":0, # 0x69580 0x40
 }
 stage_order = [
     6, 2, 18, 
@@ -223,7 +229,7 @@ relic_dict = {
     "Stage24: Relic": 0, 
     "Stage25: Relic": 0, 
 # Room 6(Secret Room)
-    "Stage26: Relic": 0, # 0x69607 0x02
+    "Stage26: Relic": 0, # 0x69688 0x02
     # Stage27 is another entrance of stage07
     "Stage28: Relic": 0, # 0x69608 0x20
     # Stage29 is another entrance of stage19
