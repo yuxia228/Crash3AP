@@ -223,16 +223,16 @@ relic_dict = {
     "Stage24: Relic": 0, 
     "Stage25: Relic": 0, 
 # Room 6(Secret Room)
-    "Stage26: Relic": 0, 
+    "Stage26: Relic": 0, # 0x69607 0x02
     # Stage27 is another entrance of stage07
-    "Stage28: Relic": 0, 
+    "Stage28: Relic": 0, # 0x69608 0x20
     # Stage29 is another entrance of stage19
-    "Stage30: Relic": 0, 
+    "Stage30: Relic": 0, # 0x69607 0x80
 # Room 7(Secret Course)
     # boat stage
-    "Stage31: Relic": 0, 
+    "Stage31: Relic": 0, # 0x69608 0x80
     # Baby-T stage
-    "Stage32: Relic": 0, 
+    "Stage32: Relic": 0, # 0x69608 0x40
 }
 
 # FixMe: To adjust for Crash3
